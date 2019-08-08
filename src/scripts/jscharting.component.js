@@ -1,3 +1,5 @@
+const JSC = require('jscharting');
+
 Vue.component('JSCharting', {
 	data: function () {
 		return {

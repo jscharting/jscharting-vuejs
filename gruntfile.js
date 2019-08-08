@@ -1,19 +1,33 @@
 module.exports = function (grunt) {
 	grunt.initConfig({
+		browserify: {
+			dist: {
+				files: {
+					'dist/scripts/main.js': ['src/scripts/*.js']
+				}
+			}
+		},
 		copy: {
-			srcToSamples: {
+			html: {
 				files: [
 					{
 						expand: true,
 						cwd: './src',
-						src: ['**'],
-						dest: '../../sandbox/integration/vuejs-cdn'
+						src: ['index.html'],
+						dest: './dist'
 					}
 				]
 			}
 		}
 	});
 
+	grunt.loadNpmTasks('grunt-browserify');
 	grunt.loadNpmTasks('grunt-contrib-copy');
-	grunt.registerTask('default', ['copy:srcToSamples']);
+
+	grunt.registerTask(
+		'default',
+		[
+			'browserify:dist',
+			'copy:html'
+		]);
 }
