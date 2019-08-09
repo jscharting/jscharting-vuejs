@@ -12,10 +12,10 @@ This pack of examples demonstrate how to use JSCharting with vuejs framework.
 
 ### How to use
 
-1) In main html page include all JSChart scripts wchich you needed.
-```html
-	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
-	<script src="scripts/jscharting/jscharting.js"></script>
+1) Install jscharting npm package.
+
+```console
+npm install jscharting --save-dev
 ```
 2) Define needed markup and include jscharting plugin and main script.
 ```html
