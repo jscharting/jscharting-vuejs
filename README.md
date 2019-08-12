@@ -24,6 +24,12 @@ Now you can build an application.
 npm run build
 ```
 
+Also you can run dev server http://localhost:5000/
+
+```console
+npm run start
+```
+
 ### How it works
 
 After run build script /dist folder will be created which contains application files.
