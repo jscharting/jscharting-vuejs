@@ -12,22 +12,31 @@ This pack of examples demonstrate how to use JSCharting with vuejs framework.
 
 ### How to use
 
-1) Install jscharting npm package and scripts which you needed.
-
-```html
-	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
-```
+Install the necessary packages including JSCharting.
 
 ```console
-npm install jscharting --save-dev
+npm install
 ```
-2) Define needed markup and include jscharting plugin and main script.
+
+Now you can build an application.
+
+```console
+npm run build
+```
+
+### How it works
+
+After run build script /dist folder will be created which contains application files.
+
+Index.html includes main (main.js) bundle file.
+
 ```html
-	<div id="app"></div>
-	<script src="scripts/jscharting.component.js"></script>
-	<script src="scripts/main.js"></script>
+<div id="app"></div>
+<script src="scripts/main.js"></script>
 ```
-3) In main.js initialize your vuejs application.
+
+Main.js contains the chart initialization code.
+
 ```javascript
 
 var app = new Vue({
