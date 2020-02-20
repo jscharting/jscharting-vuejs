@@ -1,3 +1,14 @@
+## Deprecated [2020-20-2]
+
+<br/>
+
+You can visit the [new home](https://github.com/jscharting/jscharting-vue) of the JSCharting Vue.js plugin page. 
+There you will find an npm package for the JSCharting plugin, detailed documentation, and an example project with several chart examples.
+
+<br/>
+
+<hr>
+
 # JSCharting: Any Chart. Anywhere.
 
 <a href="https://jscharting.com"><img src="https://jscharting.com/images/logo_short.svg" style="margin:0px" align="left" hspace="10" vspace="6" width="200" ></a>
